@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:IconModel="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/fragment_mine_myself"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nothingIsHere"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_mine_myself">
+        <io.xww.reading.ui.customView.IconModel
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            IconModel:icon="@drawable/ic_book_last"
+            IconModel:text="帮助" />
+        <io.xww.reading.ui.customView.IconModel
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            IconModel:icon="@drawable/ic_star"
+            IconModel:text="我喜欢" />
+        <io.xww.reading.ui.customView.IconModel
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            IconModel:icon="@drawable/ic_arrow_back"
+            IconModel:text="不知道干嘛" />
+        <io.xww.reading.ui.customView.IconModel
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            IconModel:icon="@drawable/ic_arrow_down"
+            IconModel:text="随便放的" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_mine_myself">
+        <io.xww.reading.ui.customView.IconModel
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            IconModel:icon="@drawable/ic_search"
+            IconModel:text="查找" />
+        <io.xww.reading.ui.customView.IconModel
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            IconModel:icon="@drawable/ic_me"
+            IconModel:text="我" />
+        <io.xww.reading.ui.customView.IconModel
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            IconModel:icon="@drawable/ic_settings"
+            IconModel:text="设置" />
+        <io.xww.reading.ui.customView.IconModel
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            IconModel:icon="@drawable/ic_add"
+            IconModel:text="添加" />
+    </LinearLayout>
+
+
+</LinearLayout>

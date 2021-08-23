@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">UC震怒!</string>
+    <string name="homePage">主页</string>
+    <string name="find">发现</string>
+    <string name="like">收藏</string>
+    <string name="mine">我的</string>
+    <string name="setting">设置</string>
+    <string name="adding">添加</string>
+    <string name="aPicture">平平无奇一个View(划掉)</string>
+    <string name="str">这是一段没什么用处的文字，你看到了说明哪里有问题</string>
+    <string name="loading">加载中了嘛</string>
+    <string name="nothingIsHere">施工中……</string>
+    <string name="bottom">总要有个底线把</string>
+    <string name="fresh">下拉刷新</string>
+    <string name="refresh">刷新中</string>
+    <string name="uploading">上拉加载</string>
+</resources>
